@@ -4,6 +4,7 @@
   "description": "A graffiti wall for people to draw together",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
