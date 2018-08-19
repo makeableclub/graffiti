@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+</head>
+
+<body>
+    <canvas class="surface pad"></canvas>
+
+    <div class="colors">
+      <div style="font-size:48px;color:gray" class="button paint fa fa-paint-brush"></div>
+      <div class="color black"></div>
+      <div class="color red"></div>
+      <div class="color green"></div>
+      <div class="color blue"></div>
+      <div class="color yellow"></div>
+    </div>
+    
+    <div class="buttons">
+      <div style="font-size:48px;color:red" class="button clear fa fa-eraser"></div>
+      <div style="font-size:48px;color:yellow" class="button write fa fa-pencil"></div>
+      <div style="font-size:48px;color:blue" class="button input fa fa-pencil"></div>
+    </div>
+
+    <script src="pad.js"></script>
+    <script src="drag.js"></script>
+
+</body>
+</html>

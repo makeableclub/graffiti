@@ -1,0 +1,75 @@
+/**
+ * Fix user-agent
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Canvas
+ */
+
+.surface {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.wall {
+    background-color: white;
+}
+
+.pad {
+    background-color: #507070;
+}
+
+.colors {
+  position: fixed;
+  top: 0px;
+  right: 4px;
+}
+
+.color {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+}
+
+.color.black { background-color: black; }
+.color.red { background-color: red; }
+.color.green { background-color: green; }
+.color.blue { background-color: blue; }
+.color.yellow { background-color: yellow; }
+
+
+.buttons {
+  position: fixed;
+  top: 0px;
+  left: 4px;
+}
+
+.button {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    font-size:48px;
+}
+
+.text {
+    color: red;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
